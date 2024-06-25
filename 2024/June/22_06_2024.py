@@ -1,3 +1,6 @@
+from collections import defaultdict
+from typing import List
+
 # My Solution
 class Solution:
     def numberOfSubarrays(self, nums: List[int], k: int) -> int:

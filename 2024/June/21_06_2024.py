@@ -1,6 +1,5 @@
 from typing import List
 
-
 # My Solution
 class Solution:
     def maxSatisfied(
