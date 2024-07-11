@@ -1,3 +1,5 @@
+from typing import List
+
 # My Solution
 class Solution:
     def minOperations(self, logs: List[str]) -> int:
