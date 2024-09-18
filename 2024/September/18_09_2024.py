@@ -1,1 +1,21 @@
-# This day has not yet come. This file is currently empty.
+from typing import List
+
+# My Solution
+class Solution:
+    def largestNumber(self, nums: List[int]) -> str:
+        num_strings = [str(num) for num in nums]
+        num_strings.sort(key=lambda a: a * 10, reverse=True)
+        if num_strings[0] == "0":
+            return "0"
+        return "".join(num_strings)
+
+# Best / Most Optimal Solution
+
+class Solution:
+    def largestNumber(self, nums: List[int]) -> str:
+        snums = list(map(str, nums))
+        print(snums)
+        snums.sort(key=lambda x: x*10, reverse = True)
+        if snums[0] == "0":
+            return "0"
+        return ''.join(snums)
