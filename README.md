@@ -1,1 +1,1 @@
-![image](https://github.com/HarjjotSinghh/leetcode/assets/114088280/79b69935-d7ff-40ed-90b6-df30fb1415f7)
+![image](https://github.com/user-attachments/assets/06ab1d3d-2965-4eec-a8da-53c1c787a169)
