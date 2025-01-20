@@ -29,7 +29,7 @@ class Solution:
 
 
 # Best / Most Optimal Solution
-class Solution:
+class Solution2:
     def trapRainWater(self, heightMap: List[List[int]]) -> int:
         M = len(heightMap)
         N = len(heightMap[0])
