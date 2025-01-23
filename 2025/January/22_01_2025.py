@@ -25,7 +25,7 @@ class Solution:
 
 
 # Best / Most Optimal Solution
-class Solution:
+class Solution2:
     def highestPeak(self, isWater: List[List[int]]) -> List[List[int]]:
         q = deque()
         n = len(isWater[0])
