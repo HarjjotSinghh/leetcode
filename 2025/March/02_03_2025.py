@@ -35,9 +35,7 @@ class Solution2:
         while left<len(nums1):
                 ans.append(nums1[left])
                 left+=1
-
         while right<len(nums2):
                 ans.append(nums2[right])
                 right+=1                    
-        return ans          
-        
+        return ans
